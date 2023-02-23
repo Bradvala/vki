@@ -1,0 +1,17 @@
+package vke;
+import java.util.Scanner;
+public class vke {
+    public static void main(String[] args) {
+        Scanner inp = new Scanner(System.in);
+        double m,kg,vki;
+        System.out.println("Kilonuzu giriniz:");
+        kg = inp.nextDouble();
+        System.out.println("Boyunuzu giriniz");
+        m = inp.nextDouble();
+        vki = kg / (m * m);
+        System.out.println("Vücut kitle indeksiniz:" + vki);
+
+
+
+    }
+}
